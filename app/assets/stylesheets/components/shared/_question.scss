@@ -1,0 +1,19 @@
+.sr-question {
+
+    &__container{
+        background: white;
+        // padding: 16px;
+        text-align: center;
+    }
+
+    &__accent{
+        &__title{
+            color: $main-accent-color;
+            font-size: 32px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    }
+
+
+}

@@ -1,0 +1,60 @@
+.sr-termLifeInsurance{
+
+  &__container{
+      background: white;
+      // padding: 16px;
+      text-align: center;
+      // max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 120px;
+      padding-top: 62px;
+      padding-bottom: 62px;
+  }
+
+  &__title{
+    font-size: 38px;
+  }
+
+  &__subtitle{
+    font-size: 28px;
+  }
+
+  &__image{
+    width: 188px
+  }
+
+  &__title_blue{
+    color: #4900ED;
+    font-size: 28px;
+  }
+
+  &__div{
+    &__title{
+      font-size: 38px;
+    }
+
+    &__subtitle{
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    &__image{
+      width: 188px
+    }
+
+    &__title_blue{
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+  
+  &__verticalLine {
+    height: 1px;
+    background:  #000000;
+    max-width: 90%;
+    margin: auto;
+  }
+
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'avenir-black';
+  src: font-url('Avenir/AvenirLTStd-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir-medium';
+  src: font-url('Avenir/AvenirLTStd-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir-heavy';
+  src: font-url('Avenir/AvenirLTStd-Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'avenir-black';
+}
+
+body, a, p, div, span {
+  font-family: 'avenir-heavy';
+}

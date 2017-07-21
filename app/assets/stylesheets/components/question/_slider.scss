@@ -1,0 +1,24 @@
+.sr-slider {
+
+  &__image{
+    margin-bottom: 18px;
+    margin-top: 18px;
+    height: 88px;
+    width: 88px;
+  }
+
+  &__container > .slider{
+    width: 50%
+  }
+
+}
+
+.selected-image {
+  
+  // -ms-transform: scale(0.5, 0.5);
+  // -webkit-transform: scale(0.5, 0.5);
+  // transform: scale(0.5, 0.5);
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}

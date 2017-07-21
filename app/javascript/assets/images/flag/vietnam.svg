@@ -1,0 +1,29 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Page 1.svg</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-816 -1052)">
+<g id="Page 1 Copy 4">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(816 1052)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(816 1052)" fill="#D8D8D8"/>
+</g>
+<g id="Page 1" mask="url(#mask0_outline)">
+<g id="Fill 1">
+<use xlink:href="#path1_fill" transform="translate(807 1052)" fill="#D60029"/>
+</g>
+<g id="Fill 2">
+<use xlink:href="#path2_fill" transform="translate(820 1056)" fill="#FFD600"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12 24C 18.6274 24 24 18.6274 24 12C 24 5.37258 18.6274 0 12 0C 5.37258 0 0 5.37258 0 12C 0 18.6274 5.37258 24 12 24Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 28L 40 28L 40 0L 0 0L 0 28Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 7.5 0L 9.27048 5.72945L 15 5.72945L 10.3647 9.27041L 12.1353 15L 7.5 11.459L 2.86473 15L 4.63521 9.27041L 0 5.72945L 5.72952 5.72945L 7.5 0Z"/>
+</defs>
+</svg>

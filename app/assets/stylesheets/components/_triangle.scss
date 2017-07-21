@@ -1,0 +1,23 @@
+.triangle-container {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.triangle-top-right {
+  width: 0;
+  height: 0;
+  border-left: 100vh solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 140px solid $main-blue-color;
+}
+
+.triangle-bottom-right {
+  width: 0;
+  height: 0;
+  margin-top: -60px;
+  border-left: 100vh solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 160px solid $main-blue-color;
+}

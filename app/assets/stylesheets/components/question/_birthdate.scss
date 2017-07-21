@@ -1,0 +1,42 @@
+.sr-birthdate {
+
+    &__container{
+        margin-top: 24px;
+        margin-bottom: 48px;
+
+        &__table{
+            display: table;   
+            margin: auto;     
+        }
+
+       &__table_row{
+            display: table-row;        
+        }
+
+        &__separator{
+            color: #000000;
+            height: 5px;       
+        }
+    }
+
+    &__input{
+        font-size: 22px;
+        margin-bottom: 24px;
+        &__date{
+            font-size: 18px;
+            color: #aaaaaa;
+            margin-right: 16px
+        }
+    }
+
+
+
+    &__summary{
+        font-size: 22px;
+        &__year{
+            margin-right: 8px
+        }
+    }
+
+
+}

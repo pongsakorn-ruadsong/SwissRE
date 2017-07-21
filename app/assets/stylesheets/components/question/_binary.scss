@@ -1,0 +1,42 @@
+.sr-binary {
+
+    &__container{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        background: #B11BBF;
+        padding: 24px;
+
+        &__title{
+            margin: auto;   
+            color: $secondary-blue-color;
+            font-size: 24px;
+  
+        }
+
+       &__question{
+            margin: auto;    
+            color: white;    
+        }
+    }
+
+    &__input{
+        &__button{
+            width: 120px;
+            font-size: 18px;
+            color: #aaaaaa;
+            margin-top: 16px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+       &__button.positive{
+            color: $main-blue-color;
+        }
+
+        &__button.negative{
+            color: $secondary-blue-color;
+        }
+    }
+
+
+}

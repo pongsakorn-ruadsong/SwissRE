@@ -1,0 +1,45 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Page 1 Copy</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-631 -1053)">
+<g id="Page 1 Copy">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="matrix(1 0 0 -1 631 1077)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="matrix(1 0 0 -1 631 1077)" fill="#D8D8D8"/>
+</g>
+<g id="Page 1" mask="url(#mask0_outline)">
+<g id="Fill 1">
+<use xlink:href="#path1_fill" transform="matrix(1 0 0 -1 617 1088)" fill="#CD1627"/>
+</g>
+<g id="Fill 2">
+<use xlink:href="#path2_fill" transform="matrix(1 0 0 -1 633 1072)" fill="#FFD900"/>
+</g>
+<g id="Fill 3">
+<use xlink:href="#path3_fill" transform="matrix(1 0 0 -1 650 1065)" fill="#FFD900"/>
+</g>
+<g id="Fill 4">
+<use xlink:href="#path4_fill" transform="matrix(1 0 0 -1 645 1060)" fill="#FFD900"/>
+</g>
+<g id="Fill 5">
+<use xlink:href="#path5_fill" transform="matrix(1 0 0 -1 650 1069)" fill="#FFD900"/>
+</g>
+<g id="Fill 6">
+<use xlink:href="#path6_fill" transform="matrix(1 0 0 -1 646 1074)" fill="#FFD900"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12 24C 18.6274 24 24 18.6274 24 12C 24 5.37258 18.6274 0 12 0C 5.37258 0 0 5.37258 0 12C 0 18.6274 5.37258 24 12 24Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 37L 55 37L 55 0L 0 0L 0 37Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 5 7.56364L 8.12057 10L 6.95035 6.18182L 10 3.74545L 6.17021 3.74545L 5 0L 3.82979 3.74545L 0 3.74545L 3.04965 6.18182L 1.87943 10L 5 7.56364Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 1.99974 3.0256L 3.24805 4L 2.7798 2.47287L 4 1.49847L 2.46799 1.49847L 1.99974 0L 1.53184 1.49847L 0 1.49847L 1.21985 2.47287L 0.751779 4L 1.99974 3.0256Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 1.5417 2.68653L 2.37164 4L 2.48472 2.47601L 4 2.04904L 2.54443 1.49884L 2.64729 0L 1.65531 1.16254L 0.199912 0.612333L 1.00273 1.91567L 0 3.10336L 1.5417 2.68653Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 2.45667 2.59304L 4 2.8558L 2.89836 1.76186L 3.53972 0.367553L 2.18384 1.06984L 1.09527 0L 1.35554 1.49893L 0 2.20087L 1.51786 2.47679L 1.79069 4L 2.45667 2.59304Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 2.45302 2.45478L 4 2.14733L 2.56372 1.52461L 2.6555 0L 1.63841 1.13694L 0.222955 0.531937L 1.01692 1.83172L 0 2.96815L 1.52806 2.68234L 2.34267 4L 2.45302 2.45478Z"/>
+</defs>
+</svg>

@@ -1,0 +1,188 @@
+.sr-nav {
+  text-align: center;
+  padding: 20px;
+  background-color: $main-blue-color;
+  margin-top: -1px;
+  // background-image: linear-gradient(-207deg, $main-blue-color 46%, $secondary-blue-color 100%);
+
+  &__container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  &__logo {
+    float: left;
+    width: auto;
+    height: 44px;
+    margin-right: 20px;
+  }
+
+  &__title {
+    float: left;
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  &__user {
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  &__user-image {
+    display: inline-block;
+    float: left;
+  }
+
+  &__user-name {
+    color: #fff;
+    line-height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  &__item {
+    margin-top: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  &__chat {
+    width: 200px;
+  }
+  &__phone {
+    color: #fff;
+    text-align: left;
+    font-size: 19px;
+    height: 27px;
+    line-height: 27px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    svg {
+      float: left;
+    }
+  }
+
+@media (max-width: 575px) {
+  &__auto-margin{
+    margin: 8px auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  &__auto-margin{
+    margin: 8px auto;
+  }
+ }
+@media (min-width: 768px) and (max-width: 991px) {
+  &__auto-margin{
+    margin: auto;
+  }
+ }
+
+ @media (min-width: 992px) {
+   .sr-nav {
+     &__container {
+      //  margin-left: 62px;
+     }
+
+     &__item {
+       margin-top: 0;
+       margin-right: 83px;
+     }
+
+     &__item--last {
+       margin-right: 0;
+     }
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  &__auto-margin{
+    margin: auto;
+  }
+ }
+@media (min-width: 1200px) {
+  &__auto-margin{
+    margin-top: 41px;
+    margin-bottom: 41px;
+  }
+ }
+
+  &__chat {
+    a {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
+
+  &__menu {
+    list-style: none;
+    padding: 0;
+    float: right;
+  }
+
+  &__item {
+    display: inline-block;
+    font-family: 'avenir-black';
+    // margin-left: 12px;
+    // margin-right: 12px;
+
+    a {
+      font-size: 17px;
+      color: #fff;
+    }
+  }
+
+  // &__item--first {
+  //   margin-left: 0;
+  // }
+  //
+  // &__item--last {
+  //   margin-right: 0;
+  // }
+  .icon-chest-base {
+    background: url('/images/chest_and_bese.png');
+    width: 123px;
+    height: 39px;
+  }
+    .reward {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .icon-reward {
+    background-image: url('/images/reward.png');
+    width: 39px;
+    height: 39px;
+    display:inline-block;
+    background-size: 39px 39px;
+  }
+  .text-reward {
+    text-align: left;
+    display:inline-block;
+    color: white;
+    font-size: 14px;
+
+  }
+}
+
+.icon-chest {
+  background: url('/images/chest.png');
+  width: 74px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+
+.logout-button {
+
+  width: 30px;
+  height: 20px;
+  background-size: 30px 20px;
+  display:inline;
+}

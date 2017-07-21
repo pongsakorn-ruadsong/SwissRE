@@ -1,0 +1,64 @@
+.sr-offer {
+
+    &__container {
+        border-radius: 25px;
+        //border: 2px solid $main-blue-color;
+       // padding: 20px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        min-width: 200px;
+        box-shadow: 0 0 10px $main-blue-color;
+        width: 60%;
+        font-family: avenir-heavy;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    &__div{
+       
+        &__title{
+            padding-top: 20px;
+        } 
+
+        &__content_container{
+          background: #FFFFFF;
+          border-radius: 0px  0px 25px 25px;
+          padding-top: 20px;
+        }
+    }
+
+    &__title{
+        color: $white;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    &__type{
+        color: #6D6D6D;
+        font-size: 20px;
+    }
+
+    &__payment{
+        font-size: 32px;
+    }
+
+    &__will_cost{
+        color: #6D6D6D;
+        font-size: 18px;
+    }
+
+    &__price{
+        font-size: 50px;
+    }
+
+    &__image{
+        margin-bottom: 18px;
+        margin-top: 18px;
+        height: 88px;
+    }
+
+
+
+}

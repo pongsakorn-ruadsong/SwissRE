@@ -1,0 +1,37 @@
+.sr-reasons{
+
+  &__container{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  &__image{
+    height: 88px;
+    width: 88px;
+    float: left;
+    display: block;
+  }
+
+  &__textbox{
+    display:table-cell;
+    vertical-align:middle;
+    height: 88px;
+    padding-left: 24px;
+  }
+
+  &__title{
+    font-size: 20px;  
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  &__content{
+    width: 100%;
+    font-size: 16px;
+    color: #444444;
+    display: block;
+    text-align: left;
+  }
+
+}

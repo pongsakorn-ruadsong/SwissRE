@@ -1,0 +1,29 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Page 1 Copy</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-816 -1201)">
+<g id="Page 1 Copy">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(816 1201)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Mask" mask="url(#mask0_outline)">
+<use xlink:href="#path0_fill" transform="translate(816 1201)" fill="#D8D8D8"/>
+</g>
+<g id="Page 1" mask="url(#mask0_outline)">
+<g id="Fill 1">
+<use xlink:href="#path1_fill" transform="translate(802 1190)" fill="#FFFFFF"/>
+</g>
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(822 1206)" fill="#FF0000"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 12 24C 18.6274 24 24 18.6274 24 12C 24 5.37258 18.6274 0 12 0C 5.37258 0 0 5.37258 0 12C 0 18.6274 5.37258 24 12 24Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 37L 56 37L 56 0L 0 0L 0 37Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 7 14C 10.866 14 14 10.866 14 7C 14 3.13401 10.866 0 7 0C 3.13401 0 0 3.13401 0 7C 0 10.866 3.13401 14 7 14Z"/>
+</defs>
+</svg>

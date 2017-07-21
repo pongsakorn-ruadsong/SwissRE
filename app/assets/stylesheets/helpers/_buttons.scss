@@ -1,0 +1,77 @@
+@mixin gc-button($name, $color, $dark) {
+  .btn-#{$name} {
+    color: #FFFFFF;
+    background-color: $color;
+    border-color: $color;
+    border-radius: 20px;
+    font-family: avenir-heavy;
+  }
+
+  .btn-auto {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .btn-#{$name}.btn-lg {
+    border-radius: 30px;
+  }
+
+  .btn-#{$name}--large-text {
+    font-size: 19px;
+  }
+
+  .btn-#{$name}:hover,
+  .btn-#{$name}:focus,
+  .btn-#{$name}:active,
+  .btn-#{$name}.active,
+  .open .dropdown-toggle.btn-#{$name} {
+    color: #FFFFFF;
+    background-color: $dark;
+    border-color: $color;
+  }
+
+  .btn-#{$name}:active,
+  .btn-#{$name}.active,
+  .open .dropdown-toggle.btn-#{$name} {
+    background-image: none;
+  }
+
+  .btn-#{$name}.disabled,
+  .btn-#{$name}[disabled],
+  fieldset[disabled] .btn-#{$name},
+  .btn-#{$name}.disabled:hover,
+  .btn-#{$name}[disabled]:hover,
+  fieldset[disabled] .btn-#{$name}:hover,
+  .btn-#{$name}.disabled:focus,
+  .btn-#{$name}[disabled]:focus,
+  fieldset[disabled] .btn-#{$name}:focus,
+  .btn-#{$name}.disabled:active,
+  .btn-#{$name}[disabled]:active,
+  fieldset[disabled] .btn-sr:active,
+  .btn-sr.disabled.active,
+  .btn-sr[disabled].active,
+  fieldset[disabled] .btn-sr.active {
+    background-color: $color;
+    border-color: $color;
+  }
+
+  .btn-#{$name} .badge {
+    color: $color;
+    background-color: #FFFFFF;
+  }
+}
+
+@mixin sr-button($name, $size) {
+
+.button-#{$name}{
+    min-width: $size;
+    margin-left: 16px; 
+    margin-right: 16px; 
+  }
+}
+
+@include gc-button('green', $main-green-color, $secondary-green-color);
+@include gc-button('dark-blue', $main-dark-blue-color, $secondary-dark-blue-color);
+@include gc-button('accent', $main-accent-color, $secondary-accent-color);
+@include sr-button('224', 224px);

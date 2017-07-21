@@ -1,0 +1,38 @@
+.sr-infoBox{
+
+    &__text {
+                margin-bottom: 16px;
+
+    }
+
+    &__corner {
+        border-radius: 25px;
+        // border: 2px solid #FFEF1A;
+        padding: 20px 20px 10px;
+        display: inline-block;
+        margin: 32px;
+
+    }
+
+    &__img {
+        display: none;
+
+    }
+
+    &__img[src*="http"] {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 64px;
+        height: 32px;
+        margin-top: -64px;
+        background: white;
+        display: inline-block;
+}
+
+
+
+  &__badge {
+    width: 120px;
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,48 @@
+.sr-country {
+
+ &__container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+ &__background {
+    color: #FFFFFF;
+    width: 100%;
+    background-color: #00346C;
+    border-color: $main-blue-color;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  &__block{
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  @media (max-width: 550px) {
+    &__block{
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    &__left {
+      font-size: .7em;
+    }
+  }
+
+  &__right{
+    float: right;
+  }
+
+}
+
+.forgot-password-link {
+  color: #27B5FF;
+  margin: 10px auto 50px;
+}
+.region-title {
+  color: #04FFA5;
+  font-size: 25px;
+}

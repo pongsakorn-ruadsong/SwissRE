@@ -1,0 +1,61 @@
+/* iCheck plugin skins
+----------------------------------- */
+@import url("vendor/icheck/minimal/_all.css");
+/*
+@import url("vendor/icheck/minimal/minimal.css");
+@import url("vendor/icheck/minimal/red.css");
+@import url("vendor/icheck/minimal/green.css");
+@import url("vendor/icheck/minimal/blue.css");
+@import url("vendor/icheck/minimal/aero.css");
+@import url("vendor/icheck/minimal/grey.css");
+@import url("vendor/icheck/minimal/orange.css");
+@import url("vendor/icheck/minimal/yellow.css");
+@import url("vendor/icheck/minimal/pink.css");
+@import url("vendor/icheck/minimal/purple.css");
+*/
+
+@import url("vendor/icheck/square/_all.css");
+/*
+@import url("vendor/icheck/square/square.css");
+@import url("vendor/icheck/square/red.css");
+@import url("vendor/icheck/square/green.css");
+@import url("vendor/icheck/square/blue.css");
+@import url("vendor/icheck/square/aero.css");
+@import url("vendor/icheck/square/grey.css");
+@import url("vendor/icheck/square/orange.css");
+@import url("vendor/icheck/square/yellow.css");
+@import url("vendor/icheck/square/pink.css");
+@import url("vendor/icheck/square/purple.css");
+*/
+
+@import url("vendor/icheck/flat/_all.css");
+/*
+@import url("vendor/icheck/flat/flat.css");
+@import url("vendor/icheck/flat/red.css");
+@import url("vendor/icheck/flat/green.css");
+@import url("vendor/icheck/flat/blue.css");
+@import url("vendor/icheck/flat/aero.css");
+@import url("vendor/icheck/flat/grey.css");
+@import url("vendor/icheck/flat/orange.css");
+@import url("vendor/icheck/flat/yellow.css");
+@import url("vendor/icheck/flat/pink.css");
+@import url("vendor/icheck/flat/purple.css");
+*/
+
+@import url("vendor/icheck/line/_all.css");
+/*
+@import url("vendor/icheck/line/line.css");
+@import url("vendor/icheck/line/red.css");
+@import url("vendor/icheck/line/green.css");
+@import url("vendor/icheck/line/blue.css");
+@import url("vendor/icheck/line/aero.css");
+@import url("vendor/icheck/line/grey.css");
+@import url("vendor/icheck/line/orange.css");
+@import url("vendor/icheck/line/yellow.css");
+@import url("vendor/icheck/line/pink.css");
+@import url("vendor/icheck/line/purple.css");
+*/
+
+@import url("vendor/icheck/polaris/polaris.css");
+
+@import url("vendor/icheck/futurico/futurico.css");

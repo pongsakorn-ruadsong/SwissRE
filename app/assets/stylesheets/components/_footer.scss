@@ -1,0 +1,46 @@
+.sr-footer {
+  background-color: $main-blue-color;
+  padding: 20px;
+
+  &__logo {
+    float: left;
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+  }
+
+  &__logo-footer {
+    width: 125px; 
+  }
+
+  &__title {
+    float: left;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  &__logo {
+  }
+
+  &__terms {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 0;
+    font-family: 'avenir-medium';
+  }
+
+  &__social-icon-container {
+    margin-top: -50px;
+  }
+
+  &__social-icon {
+    margin-bottom: 14px;
+    float: right;
+  }
+
+  .lang {
+    font-family: 'avenir-medium';
+  }
+}

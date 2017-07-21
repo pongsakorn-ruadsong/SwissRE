@@ -1,0 +1,131 @@
+
+
+    .sr-stepper {
+      
+
+      &__overlay{
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+
+      &__container{
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        background: $secondary-blue-color;
+        padding-top: 3px;
+      }
+
+      &__container.selected{
+        text-align: center;
+        color: $secondary-blue-color;
+        font-size: 16px;
+        background: #ffffff;
+      }
+
+      &__border{
+        border: 2px solid $secondary-blue-color;
+      }
+
+
+
+      &__chest{
+        &__1{
+          margin-left: -20px;
+          margin-bottom: 20px;
+          right: auto;
+          width: 88px;
+          height: 64px;
+          &__open{
+            background-image: url('/images/Treasurechest-B02.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+
+          &__close{
+            background-image: url('/images/Treasurechest-B01.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        &__2{
+          margin-left: -20px;
+          margin-bottom: 20px;
+          right: auto;
+          width: 88px;
+          height: 64px;
+          &__open{
+            background-image: url('/images/Treasurechest-C02.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+
+          &__close{
+            background-image: url('/images/Treasurechest-C01.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        &__3{
+          margin-left: -20px;
+          margin-bottom: 20px;
+          right: auto;
+          width: 88px;
+          height: 64px;
+          &__open{
+            background-image: url('/images/Treasurechest-D02.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+
+          &__close{
+            background-image: url('/images/Treasurechest-D01.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        &__4{
+          width: 88px;
+          height: 64px;
+          visibility: hidden;
+        }
+      }
+
+  }
+
+
+div.sr-stepper__divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.sr-stepper__divider * {
+  flex-shrink: 0
+}
+div.sr-stepper__divider span.sr-stepper__divider{
+  width: 100%;
+  height: 16px;
+  flex-shrink: 1;
+  color: $main-gray-color;
+  background: $main-gray-color;
+  border-bottom: 2px solid $secondary-blue-color;
+  border-top: 2px solid $secondary-blue-color;
+}
+
+div.sr-stepper__divider span.sr-stepper__divider.selected{
+  border-bottom: 8px solid $secondary-blue-color;
+  border-top: 8px solid $secondary-blue-color;
+  height: 0px;
+}
+
+
+
+    .small_size{
+      width: 44px;
+      height: 44px;
+      padding-top: 8px;
+    }
+

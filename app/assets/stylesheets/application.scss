@@ -1,0 +1,56 @@
+@import 'bootstrap';
+
+@import 'font-awesome';
+
+@import 'vendor/animate';
+
+@import 'config/variables';
+
+@import 'helpers/mixin';
+@import 'helpers/spacing';
+@import 'helpers/buttons';
+@import 'helpers/roundedImageButtons';
+@import 'helpers/fonts';
+@import 'helpers/colors';
+@import 'helpers/canvas';
+@import 'helpers/position';
+
+@import 'components/page';
+@import 'components/home';
+@import 'components/nav';
+@import 'components/footer';
+@import 'components/social_icon';
+@import 'components/triangle';
+@import 'components/step';
+@import 'components/local';
+@import 'components/shared/stepper';
+@import 'components/shared/infoBox';
+@import 'components/shared/question';
+@import 'components/shared/global';
+@import 'components/shared/_country';
+@import 'components/shared/_reason';
+@import 'components/shared/_pagger';
+@import 'components/journey_questions';
+@import 'components/question';
+@import 'components/subscription';
+@import 'components/thankYou';
+@import 'components/winning';
+@import 'components/congratulation';
+@import 'components/payment';
+@import 'components/question/_single_choice';
+@import 'components/subscription/_offer';
+@import 'components/question/_birthdate';
+@import 'components/question/_address';
+@import 'components/question/_slider';
+@import 'components/question/_binary';
+@import 'components/msdropdown/_dd';
+@import 'components/msdropdown/_flags';
+@import 'components/reward';
+@import 'components/sms';
+@import 'components/logout_modal';
+@import 'components/style';
+@import 'components/password';
+@import 'components/green_footer';
+@import 'components/_validatesms';
+@import 'components/_cancer_protection';
+@import 'components/_term_life_insurance';
