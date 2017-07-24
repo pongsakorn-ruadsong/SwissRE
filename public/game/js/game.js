@@ -15,7 +15,7 @@ var humanY = 120; //human position y
 
 //food array
 
-var food_number_arr = [41, 18, 29, 50, 25, 32, 40, 61, 47, 54, 33, 66, 57, 89, 266, 295, 312];
+var food_number_arr = [100, 150, 200, 300, 350, 400, 450, 500, 550, 600, 700, 750, 800, 900, 2750, 2500, 2200];
 
 var food_arr = [{src:'assets/food1.png', regX:39, regY:-37},
 				{src:'assets/food2.png', regX:33, regY:-33},
@@ -41,10 +41,10 @@ var place_arr = [{x:433, y:174},{x:586, y:174}];
 var totalRollPlates = 8; //total plate slot to roll
 var mathQuestionTextSpeed = .5; //math question text animation speed
 
-var gameTimer = 60000; //game timer for each math question
+var gameTimer = 45000; //game timer for each math question
 var gameScoreText = '[NUMBER]'; //game score text
-var gameScoreNum = 1; //game score number
-var gameScoreOnTime = false; //enable to get score base on game timer left
+var gameScoreNum = 50; //game score number
+var gameScoreOnTime = true; //enable to get score base on game timer left
 
 var sumCorrectColour = '#2DB200'; //sum correct colour
 var sumWrongColour = '#D90000'; //sum wrong colour
@@ -139,8 +139,8 @@ function goPage(page){
 			stopGame();
 			saveGame(playerData.score);
 			setTimeout(function () {
-				window.top.location.href = "http://swissre.playbasis.com/winningpoint/"+ playerData.score; //will redirect to your blog page (an ex: blog.html)
-			}, 5000);
+				window.top.location.href = "/winningpoint/"+ playerData.score; //will redirect to your blog page (an ex: blog.html)
+			}, 3000);
 		break;
 	}
 	
@@ -270,14 +270,17 @@ function saveGame(score){
  * UPDATE LEVEL - This is the function that runs to update level
  * 
  */
+var level = 0;
 function updateLevel(con){
     if (con){
+
         playerData.sum += level_arr.sumIncrease;
         if(gameScoreOnTime){
-            playerData.score += Math.floor(((playerData.timerCount - playerData.timer)/playerData.timerCount) * gameScoreNum);
+            playerData.score += gameScoreNum + (level*10);
         }else{
             playerData.score += gameScoreNum;
         }
+		level++;
         scoreTxt.text = gameScoreText.replace('[NUMBER]', playerData.score);
 
         if(playerData.sum >= playerData.targetScore){
@@ -326,13 +329,13 @@ function createNumber(){
 
 	for(n=0;n<playerData.plate;n++){
         var rand = Math.floor(Math.random()*food_number_arr.length);
-        console.log(rand);
+		if(playerData.sum == food_number_arr[rand]){
+			rand = Math.floor(Math.random()*food_number_arr.length);
+		}
         gameData.foodIndexArray.push(rand);
 		gameData.numberArray.push(food_number_arr[rand]);
 	}
-    console.log('1' + gameData.numberArray);
     shuffleFoodAndIndexArray(gameData.numberArray, gameData.foodIndexArray);
-    console.log('2' + gameData.numberArray);
 	createPlates();
 }
 
